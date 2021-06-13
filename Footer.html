@@ -1,0 +1,43 @@
+
+        </section>
+
+
+    <!--footer-->
+
+        <section id="footer">
+            <div class="title-text">
+                <h1>Let's Know More About Me ;)</h1>
+            </div>
+            <div class="footer-row">
+                <h1>See You Again!</h1>
+            </div>
+        </section>
+
+        <script>
+            var manuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "C:\Users\Admin\Desktop\Nana Images\cancel.png";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src = "C:\Users\Admin\Desktop\Nana Images\cancel.png";
+                }
+            }
+
+
+            var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+
+        </script>
+    </body>
+</html>
